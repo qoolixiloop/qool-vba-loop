@@ -1,0 +1,87 @@
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
+IMG {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; PADDING-TOP: 8px
+}
+.bg5 {
+	PADDING-BOTTOM: 35px; PADDING-LEFT: 19px; PADDING-RIGHT: 22px; PADDING-TOP: 20px
+}
+#header {
+	MARGIN: 0px auto; WIDTH: 778px; HEIGHT: 160px
+}
+#logo {
+	WIDTH: 248px; BACKGROUND: url(images/homepage02.jpg) no-repeat left top; FLOAT: left; HEIGHT: 160px
+}
+#logo H1 {
+	DISPLAY: none
+}
+#logo H2 {
+	DISPLAY: none
+}
+#menu {
+	WIDTH: 530px; FLOAT: right; HEIGHT: 160px
+}
+#menu UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+#menu LI {
+	DISPLAY: inline
+}
+#menu A {
+	DISPLAY: block; FLOAT: left; HEIGHT: 160px; TEXT-DECORATION: none
+}
+#menu A SPAN {
+	TEXT-ALIGN: center; PADDING-LEFT: 0px; DISPLAY: block; COLOR: white; FONT-SIZE: 14px; VERTICAL-ALIGN: bottom; FONT-WEIGHT: bold; PADDING-TOP: 110px
+}
+#menu1 {
+	WIDTH: 129px; BACKGROUND: url(images/homepage03.jpg) no-repeat left top
+}
+#menu2 {
+	WIDTH: 130px; BACKGROUND: url(images/homepage04.jpg) no-repeat left top
+}
+#menu3 {
+	WIDTH: 126px; BACKGROUND: url(images/homepage05.jpg) no-repeat left top
+}
+#menu4 {
+	WIDTH: 145px; BACKGROUND: url(images/homepage06.jpg) no-repeat left top
+}
+#page {
+	MARGIN: 0px auto; WIDTH: 778px
+}
+.bg1 {
+	BACKGROUND-POSITION: 39px 0px
+}
+.bg2 {
+	BACKGROUND-POSITION: 39px 0px
+}
+.bg3 {
+	BACKGROUND-POSITION: 39px 100%
+}
+#content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 416px; PADDING-RIGHT: 65px; BACKGROUND: url(images/bg05.jpg) no-repeat right top; FLOAT: right; PADDING-TOP: 35px
+}
+#sidebar {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 63px; WIDTH: 146px; PADDING-RIGHT: 0px; BACKGROUND: url(images/bg04.jpg) no-repeat left top; FLOAT: left; PADDING-TOP: 35px
+}
+#box1 {
+	
+}
+#box2 {
+	WIDTH: 204px; FLOAT: left
+}
+#box3 {
+	WIDTH: 184px; FLOAT: right
+}
+#box4 {
+	
+}
+#box5 {
+	
+}
+#footer {
+	MARGIN: 0px auto; WIDTH: 778px; HEIGHT: 97px; PADDING-TOP: 25px
+}

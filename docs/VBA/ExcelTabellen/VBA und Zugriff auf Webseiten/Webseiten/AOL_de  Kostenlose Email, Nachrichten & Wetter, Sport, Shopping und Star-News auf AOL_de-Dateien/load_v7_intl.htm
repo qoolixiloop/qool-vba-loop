@@ -1,0 +1,102 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0041)http://www.aol.de/ads/load_v7_intl.html -->
+<HTML><HEAD>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<SCRIPT type=text/javascript>
+
+var dom=location.hash
+
+if (dom!=''){
+
+  dom=dom.substr(1)
+
+  if (dom!=1)document.domain=dom
+
+  else {
+
+    var adsIn=1;
+
+    var f=document.createElement('script')
+
+    f.src='http://o.aolcdn.com/ads/adsWrapperIntl.js'
+
+  }
+
+}
+
+
+
+function adsPageOnL(){
+
+  if (dom!=1){
+
+  var adFr=window.frameElement
+
+  if (adFr){
+
+      if (adFr.textAd!=1){
+
+        var collapse=parent.adsCkCol(adFr,document)
+
+        if (!collapse&&adFr.divName){
+
+          var parDiv=parent.document.getElementById(adFr.divName)
+
+          if (parDiv&&(parDiv.dynSz==1)&&parent.adsRMIFOnL){
+
+	      parent.adsRMIFOnL(window,document)
+
+          }
+
+        }
+
+      }
+
+      else
+
+        parent.adsDoOnL(adFr,document)
+
+  }
+
+  }
+
+  else {
+
+     document.body.appendChild(f)
+
+  }
+
+}
+
+</SCRIPT>
+
+<META name=GENERATOR content="MSHTML 8.00.6001.19120"></HEAD>
+<BODY 
+style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: transparent; OVERFLOW: visible; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+onload='setTimeout("adsPageOnL()",10)'>
+<DIV 
+style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; OVERFLOW: visible; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+id=adDiv><SPAN 
+style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; OVERFLOW: visible; BORDER-TOP: 0px; BORDER-RIGHT: 0px" 
+id=adSpan>
+<TABLE style="DISPLAY: inline; BORDER-COLLAPSE: collapse" id=adTable>
+  <TBODY>
+  <TR>
+    <TD 
+    style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+      <SCRIPT type=text/javascript>
+
+if (dom!=1){
+
+inDapIF=true
+
+inFIF=true
+
+if (parent.adsGetAdURL)
+
+    document.write("<scr"+"ipt type='text/javascript' src='"+parent.adsGetAdURL(window)+"'></scr"+"ipt>")
+
+}
+
+</SCRIPT>
+    </TD></TR></TBODY></TABLE></SPAN></DIV></BODY></HTML>

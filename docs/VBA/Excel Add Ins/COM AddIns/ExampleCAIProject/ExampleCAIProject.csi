@@ -1,0 +1,23 @@
+[History]
+1=#P0#=mb	#P1#=MenuItem1_Click	#P2#=ExampleCAIProject/CPowerPointControls/MenuItem1_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131141602	#P7#=0	#P8#=0	.
+2=#P0#=mb	#P1#=IDTExtensibility2_OnDisconnection	#P2#=ExampleCAIProject/ExampleConnect/IDTExtensibility2_OnDisconnection	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131141224	#P7#=0	#P8#=38	.
+3=#P0#=mb	#P1#=IDTExtensibility2_OnConnection	#P2#=ExampleCAIProject/ExampleConnect/IDTExtensibility2_OnConnection	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131141221	#P7#=0	#P8#=38	.
+4=#P0#=mb	#P1#=CreateControls	#P2#=ExampleCAIProject/CPowerPointControls/CreateControls	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20070131140741	#P7#=0	#P8#=16	.
+5=#P0#=mb	#P1#=PowerPointApp	#P2#=ExampleCAIProject/CPowerPointControls/PowerPointApp [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20070131140046	#P7#=0	#P8#=-2	.
+6=#P0#=mb	#P1#=PowerPointApp	#P2#=ExampleCAIProject/CPowerPointControls/PowerPointApp [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20070131140022	#P7#=0	#P8#=2	.
+7=#P0#=mb	#P1#=DeleteControls	#P2#=ExampleCAIProject/CExcelControls/DeleteControls	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20070131135043	#P7#=0	#P8#=13	.
+8=#P0#=mb	#P1#=DeleteControls	#P2#=ExampleCAIProject/CPowerPointControls/DeleteControls	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20070131135026	#P7#=0	#P8#=9	.
+9=#P0#=mb	#P1#=pPowerPointApp_NewPresentation	#P2#=ExampleCAIProject/CPowerPointEvents/pPowerPointApp_NewPresentation	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131134714	#P7#=0	#P8#=1	.
+10=#P0#=mb	#P1#=PowerPointApp	#P2#=ExampleCAIProject/CPowerPointEvents/PowerPointApp [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20070131134346	#P7#=0	#P8#=1	.
+11=#P0#=mb	#P1#=PowerPointApp	#P2#=ExampleCAIProject/CPowerPointEvents/PowerPointApp [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20070131134334	#P7#=0	#P8#=5	.
+12=#P0#=mb	#P1#=CreateControls	#P2#=ExampleCAIProject/CExcelControls/CreateControls	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20070131114630	#P7#=0	#P8#=18	.
+13=#P0#=mb	#P1#=Class_Initialize	#P2#=ExampleCAIProject/CExcelControls/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131114556	#P7#=0	#P8#=1	.
+14=#P0#=mb	#P1#=Class_Terminate	#P2#=ExampleCAIProject/CExcelControls/Class_Terminate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131114503	#P7#=0	#P8#=6	.
+15=#P0#=mb	#P1#=ExcelApp	#P2#=ExampleCAIProject/CExcelEvents/ExcelApp [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20070131113719	#P7#=0	#P8#=2	.
+16=#P0#=mb	#P1#=ExcelApp	#P2#=ExampleCAIProject/CExcelEvents/ExcelApp [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20070131113711	#P7#=0	#P8#=-1	.
+17=#P0#=mb	#P1#=Class_Terminate	#P2#=ExampleCAIProject/CExcelEvents/Class_Terminate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131113659	#P7#=0	#P8#=-1	.
+18=#P0#=mb	#P1#=pExcelApp_NewWorkbook	#P2#=ExampleCAIProject/CExcelEvents/pExcelApp_NewWorkbook	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131113652	#P7#=0	#P8#=6	.
+19=#P0#=mb	#P1#=IDTExtensibility2_OnAddInsUpdate	#P2#=ExampleCAIProject/ExampleConnect/IDTExtensibility2_OnAddInsUpdate	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131113254	#P7#=0	#P8#=0	.
+20=#P0#=mb	#P1#=MenuItem1_Click	#P2#=ExampleCAIProject/CExcelControls/MenuItem1_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070131111009	#P7#=0	#P8#=6	.
+21=#P0#=mb	#P1#=DoubleIt	#P2#=ExampleCAIProject/ExcelFunctions/DoubleIt	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20070128120651	#P7#=0	#P8#=1	.
+22=#P0#=mb	#P1#=IDTExtensibility2_OnStartupComplete	#P2#=ExampleCAIProject/ExampleConnect/IDTExtensibility2_OnStartupComplete	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20070128104132	#P7#=0	#P8#=0	.

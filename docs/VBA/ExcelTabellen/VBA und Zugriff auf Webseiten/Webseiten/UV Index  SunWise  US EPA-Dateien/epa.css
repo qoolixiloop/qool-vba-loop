@@ -1,0 +1,208 @@
+@import url( http://www.epa.gov/epafiles/s/epa-content.css );
+.skip {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; WIDTH: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; LEFT: 0px
+}
+.printOnly {
+	DISPLAY: none
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+:link IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+:visited IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A:link {
+	COLOR: #33c
+}
+A:visited {
+	COLOR: #609
+}
+A:hover {
+	COLOR: #933
+}
+A:active {
+	COLOR: #933
+}
+BODY {
+	MIN-WIDTH: 760px; PADDING-BOTTOM: 0px; MARGIN: 0px 5% 40px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 75%/1.3 Verdana, Tahoma, sans-serif; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/epafiles_misc_bg.gif) #fff repeat-y 0px 50%; COLOR: #000; PADDING-TOP: 0px
+}
+#header {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px 1px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif) no-repeat right top; TOP: 0px; PADDING-TOP: 26px; LEFT: 0px
+}
+#content {
+	POSITION: relative; MARGIN: 30px 0px 20px 151px
+}
+#area-nav {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 132px; PADDING-RIGHT: 0px; TOP: 130px; PADDING-TOP: 0px; LEFT: 5px
+}
+#footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 151px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; FONT-SIZE: 0.85em; PADDING-TOP: 0px
+}
+#header DIV#logo {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TOP: 9px; PADDING-TOP: 0px; LEFT: 22px
+}
+#areaname {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 100px; PADDING-LEFT: 51px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif) #006 no-repeat 100% 0px; COLOR: #fff; PADDING-TOP: 0px
+}
+DIV#areaname P {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.3; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 120px; DISPLAY: block; BACKGROUND: url(http://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif) no-repeat 100% 100%; COLOR: #fff; FONT-SIZE: 1.7em; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#header P {
+	POSITION: relative; MARGIN: 1px 0px 0px 151px; BACKGROUND: #fff; COLOR: #000; FONT-SIZE: 0.85em
+}
+#header P#tagline {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.1; MARGIN: 0px 0px 4px 151px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#EPAsearch {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#header .search {
+	MARGIN: 0px 0px 0px 2em; FONT-SIZE: 1.2em
+}
+#searchbox {
+	BORDER-BOTTOM: #bdf 1px solid; BORDER-LEFT: #79c 1px solid; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 2px; PADDING-LEFT: 2px; WIDTH: 120px; PADDING-RIGHT: 2px; BORDER-TOP: #79c 1px solid; BORDER-RIGHT: #bdf 1px solid; PADDING-TOP: 2px
+}
+#searchbutton {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 20px 2px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#header UL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.2; BACKGROUND-COLOR: #e1ebf4; LIST-STYLE-TYPE: none; MARGIN: 0px 0px 0px 147px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; LETTER-SPACING: -0.04em; COLOR: #000; FONT-SIZE: 0.85em; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+#header UL LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 14px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/breadcrumbarrow.gif) no-repeat 0px 50%; PADDING-TOP: 0px
+}
+#header UL LI A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#header UL LI.first {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#content P#areafooter {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; FONT-SIZE: 0.85em; PADDING-TOP: 20px
+}
+#area-nav {
+	BACKGROUND-COLOR: #369; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#area-nav HR {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #fff; WIDTH: 85%; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+#area-nav UL LI HR {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #fff; MARGIN: 6px 0px -2px 4px; WIDTH: 112px; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+#area-nav UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+#area-nav UL LI {
+	PADDING-BOTTOM: 6px; TEXT-INDENT: -0.5em; MARGIN: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 0px; PADDING-TOP: 3px
+}
+#area-nav UL UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#area-nav UL UL LI {
+	PADDING-BOTTOM: 1px; LINE-HEIGHT: 1.1; MARGIN: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#area-nav A {
+	LINE-HEIGHT: 1.2; DISPLAY: block; COLOR: #fff; FONT-SIZE: 1em; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#area-nav A:hover {
+	COLOR: #90f0ff
+}
+#area-nav A:active {
+	COLOR: #90f0ff
+}
+UL#globalfooter {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 20% 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #006 4px solid; LIST-STYLE-IMAGE: none; PADDING-TOP: 10px
+}
+UL#globalfooter LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; DISPLAY: inline; BORDER-RIGHT: #000 1px solid; PADDING-TOP: 0px
+}
+UL#globalfooter LI.last {
+	BORDER-RIGHT: medium none
+}
+#footer P#date {
+	MARGIN-BOTTOM: 0px
+}
+#footer P#url {
+	MARGIN: 0px
+}
+#footer P#printAsIs {
+	MARGIN: 0px
+}
+BODY#sidebarless {
+	BACKGROUND: #fff
+}
+BODY#sidebarless #content {
+	MARGIN-LEFT: 2%
+}
+BODY#sidebarless #footer {
+	MARGIN-LEFT: 0px
+}
+BODY#espanol #header {
+	BACKGROUND: url(http://www.epa.gov/espanol/layout-files/epa-spn-agencyname.gif) no-repeat right top
+}
+#footer UL#bookmarkList {
+	Z-INDEX: 10; POSITION: absolute; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #006; FONT-SIZE: 85%; TOP: 27px; RIGHT: 6%; PADDING-TOP: 1px
+}
+#footer UL#bookmarkList LI {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px
+}
+#footer UL#bookmarkList LI UL {
+	POSITION: static; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #fff; PADDING-TOP: 1px
+}
+UL#bookmarkList .post#post A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/bookmarkicon.gif); PADDING-BOTTOM: 3px; MARGIN: 0px 14px; PADDING-LEFT: 18px; PADDING-RIGHT: 2px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 50%; COLOR: #fff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+UL#bookmarkList .postFrame#post A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/bookmarkicon.gif); PADDING-BOTTOM: 3px; MARGIN: 0px 14px; PADDING-LEFT: 18px; PADDING-RIGHT: 2px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 50%; COLOR: #fff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+UL#bookmarkList .post#post A:hover {
+	BACKGROUND-COLOR: #fff; COLOR: #33c
+}
+UL#bookmarkList .postFrame#post A:hover {
+	BACKGROUND-COLOR: #fff; COLOR: #33c
+}
+UL#bookmarkList .post#post A:hover {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/expand.gif)
+}
+UL#bookmarkList .postFrame#post A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/contract.gif)
+}
+UL#bookmarkList .postFrame#post UL#postList A {
+	BACKGROUND-COLOR: transparent; MARGIN: 0px 2px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; COLOR: #33c; FONT-WEIGHT: normal
+}
+UL#bookmarkList .postFrame#post UL#postList A:hover {
+	BACKGROUND-COLOR: #fff; COLOR: #33c
+}
+UL#bookmarkList LI UL#postList .digg A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/digg.gif)
+}
+UL#bookmarkList LI UL#postList .slashdot A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/slashdot.gif)
+}
+UL#bookmarkList LI UL#postList .facebook A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/facebook.gif)
+}
+UL#bookmarkList LI UL#postList .reddit A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/reddit.gif)
+}
+UL#bookmarkList LI UL#postList .stumble A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/stumble.gif)
+}
+UL#bookmarkList LI UL#postList .delicious A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/delicious.gif)
+}
+UL#bookmarkList LI UL#postList .whatisthis A {
+	BACKGROUND-IMAGE: url(http://www.epa.gov/epafiles/s/i/whatisthis.gif)
+}
+.show {
+	DISPLAY: block
+}
+.hide {
+	DISPLAY: none
+}

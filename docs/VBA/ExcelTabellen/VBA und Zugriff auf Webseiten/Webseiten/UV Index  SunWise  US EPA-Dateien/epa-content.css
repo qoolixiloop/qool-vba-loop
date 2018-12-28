@@ -1,0 +1,444 @@
+#content .right {
+	FLOAT: right
+}
+#content .center {
+	TEXT-ALIGN: center
+}
+#content .left {
+	FLOAT: left
+}
+#content .clear {
+	CLEAR: both
+}
+#content INS {
+	TEXT-DECORATION: none
+}
+#content ABBR {
+	BORDER-BOTTOM: #d0d0d0 1px dashed; FONT-VARIANT: small-caps; CURSOR: help
+}
+#content ACRONYM {
+	BORDER-BOTTOM: #d0d0d0 1px dashed; FONT-VARIANT: small-caps; CURSOR: help
+}
+#content CODE {
+	FONT: 1em "Lucida Console", "Andale Mono", "monotype.com", "Bitstream Vera Sans Mono", monospace
+}
+#content PRE {
+	FONT: 1em "Lucida Console", "Andale Mono", "monotype.com", "Bitstream Vera Sans Mono", monospace
+}
+#content HR {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND-COLOR: #ccc; MARGIN: 3px 0px; CLEAR: both; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content P.pagetop {
+	MARGIN: 1em 0px; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/pagetop.gif) no-repeat 0px 50%; CLEAR: both; FONT-SIZE: 0.8em
+}
+#content P.pagetop A {
+	PADDING-LEFT: 8px; COLOR: #666; TEXT-DECORATION: none
+}
+#content P.pagetop A:hover {
+	TEXT-DECORATION: underline
+}
+#content .imgcontainer-r {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffdb; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; PADDING-TOP: 0px
+}
+#content .imgcontainer-l {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffdb; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; PADDING-TOP: 0px
+}
+#content .imgcontainer-r IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px -3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#content .imgcontainer-l IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px -3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#content .imgcontainer-r {
+	MARGIN: 0px 0px 6px 6px; FLOAT: right
+}
+#content .imgcontainer-l {
+	MARGIN: 0px 6px 6px 0px; FLOAT: left
+}
+#content .imgcontainer-l .caption A {
+	TEXT-DECORATION: none
+}
+#content .imgcontainer-r .caption A {
+	TEXT-DECORATION: none
+}
+#content .imgcontainer-r .caption A:hover {
+	TEXT-DECORATION: underline
+}
+#content .imgcontainer-l .caption A:hover {
+	TEXT-DECORATION: underline
+}
+#content .caption A:hover {
+	TEXT-DECORATION: underline
+}
+#content .caption {
+	PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: 0.85em; PADDING-TOP: 2px
+}
+#content UL {
+	MARGIN-TOP: 0px; LIST-STYLE-IMAGE: url(http://www.epa.gov/epafiles/s/i/bu_sftblue.gif)
+}
+#content UL OL {
+	LIST-STYLE-IMAGE: none
+}
+#content LI {
+	MARGIN-TOP: 0px; PADDING-LEFT: 0px; MARGIN-LEFT: 10px; PADDING-TOP: 0px
+}
+#content LI LI {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px
+}
+#content H1 {
+	LINE-HEIGHT: 1em; MARGIN: 0px 0px 0.68em; FONT-SIZE: 1.9em
+}
+#content H2 {
+	LINE-HEIGHT: 1em; MARGIN: 1.21em 0px 0.4em; FONT-SIZE: 1.6em
+}
+#content H3 {
+	LINE-HEIGHT: 1em; MARGIN: 1.44em 0px 0.48em; FONT-SIZE: 1.35em
+}
+#content H4 {
+	LINE-HEIGHT: 1.08em; MARGIN: 1.62em 0px 0.54em; FONT-SIZE: 1.2em
+}
+#content H5 {
+	LINE-HEIGHT: 1.3em; MARGIN: 1.95em 0px 0.65em; FONT-SIZE: 1em
+}
+#content H6 {
+	LINE-HEIGHT: 1.62em; MARGIN: 2.43em 0px 0.81em; FONT-SIZE: 0.8em
+}
+#content P {
+	LINE-HEIGHT: 1.3em; MARGIN-TOP: 1.3em; MARGIN-BOTTOM: 1.3em; FONT-SIZE: 1em
+}
+#content #sitewidea {
+	COLOR: #c33; FONT-SIZE: 1em; FONT-WEIGHT: bold
+}
+#content #sitewideb {
+	COLOR: #c33; FONT-SIZE: 1em; FONT-WEIGHT: bold
+}
+#content #sitewidec {
+	COLOR: #c33; FONT-SIZE: 1em; FONT-WEIGHT: bold
+}
+#content .warning {
+	COLOR: #c33; FONT-SIZE: 1em; FONT-WEIGHT: bold
+}
+#content .fileinfo {
+	COLOR: #666; FONT-SIZE: 0.85em
+}
+#content .epaltsansbold {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 0.85em; FONT-WEIGHT: bold
+}
+#content .epaltsans {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 0.9em
+}
+#content .epaLtSans {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 0.9em
+}
+#content .boxmulti {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em 0.5em; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/curves-bottom.gif) #f1f1f1 no-repeat left bottom; FLOAT: right; FONT-SIZE: 0.9em; PADDING-TOP: 0px
+}
+#content .boxnat {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em 0.5em; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/curves-bottom.gif) #f1f1f1 no-repeat left bottom; FLOAT: right; FONT-SIZE: 0.9em; PADDING-TOP: 0px
+}
+#content .boxalert {
+	BORDER-BOTTOM: #c33 2px solid; BORDER-LEFT: #c33 2px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f1f1f1; MARGIN: 0px 0px 5px 5px; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; FLOAT: right; FONT-SIZE: 0.9em; BORDER-TOP: #c33 2px solid; BORDER-RIGHT: #c33 2px solid; PADDING-TOP: 0px
+}
+#content .box {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; PADDING-BOTTOM: 0px; MARGIN: 5px 5px 5px 0px; PADDING-LEFT: 0px; WIDTH: 50%; PADDING-RIGHT: 0px; FONT-SIZE: 0.9em; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; PADDING-TOP: 0px
+}
+#content .boxmulti H5 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #5c9261; MARGIN: 0px 0px 0.2em; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #fff; FONT-SIZE: 1em; PADDING-TOP: 2px
+}
+#content .boxnat H5 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #5c9261; MARGIN: 0px 0px 0.2em; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #fff; FONT-SIZE: 1em; PADDING-TOP: 2px
+}
+#content .boxalert H5 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #5c9261; MARGIN: 0px 0px 0.2em; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #fff; FONT-SIZE: 1em; PADDING-TOP: 2px
+}
+#content .box H5 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #5c9261; MARGIN: 0px 0px 0.2em; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #fff; FONT-SIZE: 1em; PADDING-TOP: 2px
+}
+#content .boxmulti H5 {
+	BACKGROUND: url(http://www.epa.gov/epafiles/s/i/curves-top.gif) #5c9261 no-repeat left top
+}
+#content .boxnat H5 {
+	BACKGROUND: url(http://www.epa.gov/epafiles/s/i/curves-top.gif) #5c9261 no-repeat left top
+}
+#content .boxnat H5 {
+	BACKGROUND-COLOR: #369
+}
+#content .boxalert H5 {
+	BACKGROUND-COLOR: #c33
+}
+#content .box H5 {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ddd; COLOR: #000
+}
+#content .boxmulti UL LI {
+	LIST-STYLE-IMAGE: url(http://www.epa.gov/epafiles/s/i/bu_sftgrn.gif)
+}
+#content .boxalert UL LI {
+	LIST-STYLE-IMAGE: url(http://www.epa.gov/epafiles/s/i/bu_alertred.gif)
+}
+#content .centered {
+	MARGIN: 5px auto
+}
+#content .righted {
+	MARGIN: 5px 0px 5px 5px; FLOAT: right
+}
+#content .centered H5 {
+	TEXT-ALIGN: center
+}
+#content .righted H5 {
+	TEXT-ALIGN: center
+}
+#content .color1 {
+	BORDER-BOTTOM: #363 2px solid; BORDER-LEFT: #363 2px solid; BORDER-TOP: #363 2px solid; BORDER-RIGHT: #363 2px solid
+}
+#content .color2 {
+	BORDER-BOTTOM: #006 2px solid; BORDER-LEFT: #006 2px solid; BORDER-TOP: #006 2px solid; BORDER-RIGHT: #006 2px solid
+}
+#content .color1 H5 {
+	BACKGROUND-COLOR: #5c9261; COLOR: #fff
+}
+#content .color1 UL LI {
+	LIST-STYLE-IMAGE: url(http://www.epa.gov/epafiles/s/i/bu_sftgrn.gif)
+}
+#content .color2 H5 {
+	BACKGROUND-COLOR: #369; COLOR: #fff
+}
+#content .boxmulti UL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .boxmulti OL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .boxnat UL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .boxnat OL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .boxalert UL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .boxalert OL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .box UL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .box OL {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#content .boxmulti LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -1em; PADDING-TOP: 0px
+}
+#content .boxnat LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -1em; PADDING-TOP: 0px
+}
+#content .boxalert LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -1em; PADDING-TOP: 0px
+}
+#content .box LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -1em; PADDING-TOP: 0px
+}
+#content .boxmulti LI LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -2em; PADDING-TOP: 0px
+}
+#content .boxnat LI LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -2em; PADDING-TOP: 0px
+}
+#content .boxalert LI LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -2em; PADDING-TOP: 0px
+}
+#content .box LI LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; MARGIN-LEFT: -2em; PADDING-TOP: 0px
+}
+#content .boxmulti P {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+#content .boxnat P {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+#content .boxalert P {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+#content .box P {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+#content .boxmulti A {
+	TEXT-DECORATION: none
+}
+#content .boxnat A {
+	TEXT-DECORATION: none
+}
+#content .boxalert A {
+	TEXT-DECORATION: none
+}
+#content .box A {
+	TEXT-DECORATION: none
+}
+#content .boxmulti A:hover {
+	TEXT-DECORATION: underline
+}
+#content .boxnat A:hover {
+	TEXT-DECORATION: underline
+}
+#content .boxalert A:hover {
+	TEXT-DECORATION: underline
+}
+#content .box A:hover {
+	TEXT-DECORATION: underline
+}
+#content .boxsimple {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; MARGIN: 0px 0px 1em 1em; WIDTH: 15%; FLOAT: right; FONT-SIZE: 0.9em; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid
+}
+#content .boxsimple H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+#content .boxsimple P {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+#content P.pullquote {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 0px solid; PADDING-BOTTOM: 0.5em; LINE-HEIGHT: normal; FONT-STYLE: italic; MARGIN: 0.5em 0px 0.5em 1em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; FLOAT: right; COLOR: #333; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 2px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 0px solid; PADDING-TOP: 0.5em
+}
+#content P.pullquote SPAN.author {
+	FONT-STYLE: normal; FONT-SIZE: 0.8em
+}
+#content .disclaimer {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; PADDING-BOTTOM: 0.3em; LINE-HEIGHT: 1.1; MARGIN: 1em 0px 1em 1em; PADDING-LEFT: 0.3em; WIDTH: 20%; PADDING-RIGHT: 0.3em; BACKGROUND: #f1f1f1; FLOAT: right; FONT-SIZE: 0.9em; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; PADDING-TOP: 0.3em
+}
+#content .disclaimer-wide {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; PADDING-BOTTOM: 0.3em; LINE-HEIGHT: 1.1; MARGIN: 1em 0px 1em 1em; PADDING-LEFT: 0.3em; WIDTH: 20%; PADDING-RIGHT: 0.3em; BACKGROUND: #f1f1f1; FLOAT: right; FONT-SIZE: 0.9em; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; PADDING-TOP: 0.3em
+}
+#content P#archive {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; PADDING-BOTTOM: 0.3em; LINE-HEIGHT: 1.1; MARGIN: 1em 0px 1em 1em; PADDING-LEFT: 0.3em; WIDTH: 20%; PADDING-RIGHT: 0.3em; BACKGROUND: #f1f1f1; FLOAT: right; FONT-SIZE: 0.9em; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; PADDING-TOP: 0.3em
+}
+#content .disclaimer-wide {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0.3em; MARGIN: 1em 10%; PADDING-LEFT: 0.3em; WIDTH: auto; PADDING-RIGHT: 0.3em; FLOAT: none; PADDING-TOP: 0.3em
+}
+#content P#archive {
+	PADDING-BOTTOM: 0.3em; MARGIN: 0px 0px 0.3em; PADDING-LEFT: 30px; WIDTH: 350px; PADDING-RIGHT: 0.3em; BACKGROUND: url(http://www.epa.gov/epafiles/images/epafiles_misc_outdatediconmini.gif) #f1f1f1 no-repeat 0.3em 50%; FLOAT: none; PADDING-TOP: 0.3em
+}
+#content B.cn {
+	POSITION: absolute; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 10px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/white.gif) no-repeat; HEIGHT: 10px; FONT-SIZE: 1px; PADDING-TOP: 0px
+}
+#content B.tl {
+	BACKGROUND-POSITION: left top; TOP: -1px; LEFT: -1px
+}
+#content B.tr {
+	BACKGROUND-POSITION: right top; TOP: -1px; RIGHT: -1px
+}
+#content TABLE.table {
+	MARGIN: 0px 0px 1em; BORDER-COLLAPSE: collapse
+}
+#content TABLE.tablebord {
+	MARGIN: 0px 0px 1em; BORDER-COLLAPSE: collapse
+}
+#content TABLE.table CAPTION {
+	PADDING-BOTTOM: 6px; FONT-WEIGHT: bold
+}
+#content TABLE.tablebord CAPTION {
+	PADDING-BOTTOM: 6px; FONT-WEIGHT: bold
+}
+#content TABLE.table TH {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 0px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 0px solid; PADDING-TOP: 5px
+}
+#content TABLE.table TD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 0px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 0px solid; PADDING-TOP: 5px
+}
+#content TABLE.tablebord TH {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 0px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 0px solid; PADDING-TOP: 5px
+}
+#content TABLE.tablebord TD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 0px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 0px solid; PADDING-TOP: 5px
+}
+#content TABLE.table THEAD {
+	BACKGROUND: #ccc; COLOR: #000
+}
+#content TABLE.table TFOOT {
+	BACKGROUND: #ccc; COLOR: #000
+}
+#content TABLE.tablebord THEAD {
+	BACKGROUND: #ccc; COLOR: #000
+}
+#content TABLE.tablebord TFOOT {
+	BACKGROUND: #ccc; COLOR: #000
+}
+#content TABLE.table TH {
+	BORDER-BOTTOM: #ddd 0px solid; BORDER-LEFT: #ddd 1px solid; BACKGROUND: #ccc; COLOR: #000; BORDER-TOP: #ddd 0px solid; BORDER-RIGHT: #ddd 1px solid
+}
+#content TABLE.tablebord TH {
+	BORDER-BOTTOM: #ddd 0px solid; BORDER-LEFT: #ddd 1px solid; BACKGROUND: #ccc; COLOR: #000; BORDER-TOP: #ddd 0px solid; BORDER-RIGHT: #ddd 1px solid
+}
+#content TABLE.zebra TR.tint {
+	BACKGROUND-COLOR: #f1f1f1
+}
+#content TABLE.tablebord TR.tint {
+	BACKGROUND-COLOR: #f1f1f1
+}
+#content TABLE.tablebord {
+	BORDER-BOTTOM: #ccc 0px solid; BORDER-LEFT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 0px solid
+}
+#content TABLE.tablebord TH {
+	BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 0px
+}
+#content TABLE.tablebord TD {
+	BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 0px
+}
+#content TABLE.qfinder {
+	BORDER-BOTTOM: #5c9261 1px solid; PADDING-BOTTOM: 0.2em; MARGIN: 0px 0px 1em; WIDTH: 100%; BORDER-COLLAPSE: collapse; FONT: 90%/1.1em Arial, Helvetica, sans-serif
+}
+#content TABLE.qfinder THEAD TH {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/qf-r.gif) #5c9261 no-repeat right top; PADDING-TOP: 0px
+}
+#content TABLE.qfinder THEAD TH P {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; MARGIN: 0px 8px 0px 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/qf-l.gif) no-repeat; COLOR: #fff; FONT-SIZE: 1.3em; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+#content TABLE.qfinder THEAD TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 8px; PADDING-TOP: 0px
+}
+#content TABLE.qfinder TBODY TD {
+	LINE-HEIGHT: 1.2em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em
+}
+#content TABLE.qfinder A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 0px; DISPLAY: block; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#content TABLE.qfinder TD A:hover {
+	BACKGROUND-COLOR: #f1f1f1; TEXT-DECORATION: none
+}
+#content TABLE.qfinder TD A.more {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 17px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.epa.gov/epahome/images/more_topic.gif) no-repeat 7px 3px; PADDING-TOP: 0px
+}
+#content FORM.form LABEL {
+	WIDTH: 150px; DISPLAY: block; MARGIN-BOTTOM: 10px; FLOAT: left
+}
+#content FORM.form INPUT {
+	WIDTH: 150px; DISPLAY: block; MARGIN-BOTTOM: 10px; FLOAT: left
+}
+#content FORM.form FIELDSET {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#content FORM.form LABEL {
+	TEXT-ALIGN: right; WIDTH: 100px; PADDING-RIGHT: 10px
+}
+#content FORM.form BR {
+	CLEAR: left
+}
+#content FORM.form P {
+	CLEAR: left
+}
+#content FORM.form INPUT#formsubmit {
+	MARGIN: 10px 0px 10px 110px; WIDTH: auto
+}
+#main #maincenter {
+	WIDTH: 100%; FLOAT: left; MARGIN-RIGHT: -95%
+}
+#maincenter #mainpad-2 {
+	MARGIN: 0px 215px 0px 0px
+}
+#maincenter #mainpad-3 {
+	MARGIN: 0px 215px
+}
+#main #secondary {
+	MARGIN: 20px 0px 0px; WIDTH: 200px; FLOAT: right
+}
+#main #tertiary {
+	MARGIN: 20px 0px 0px -5%; WIDTH: 200px; FLOAT: left
+}

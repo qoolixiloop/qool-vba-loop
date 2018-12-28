@@ -1,0 +1,177 @@
+@import url( http://www.epa.gov/epafiles/s/epa-content.css );
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 10pt/1.1 Verdana, sans-serif; BACKGROUND: #fff; COLOR: #000; PADDING-TOP: 0px
+}
+#skipnav {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#skiptop {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#skipbot {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+HR.skip {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#areaname #banner {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#areaname P#tagline {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#EPAsearch {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#header P {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+BODY#aara #content #quickfinder B.cn {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#content #sitewidea {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#content #sitewideb {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#content #sitewidec {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#content #areafooter {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#content .pagetop {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#area-nav H3 {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#area-nav {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+UL#globalfooter {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+#bookmarkList {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+A IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+A {
+	COLOR: #000
+}
+#header {
+	POSITION: static; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+#content {
+	MARGIN: 40px 20px
+}
+BODY#aara #content {
+	MARGIN: 50px 20px 40px
+}
+#footer {
+	MARGIN: 0px
+}
+#header DIV#logo {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100px; PADDING-RIGHT: 0px; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+#header DIV#areaname P {
+	POSITION: relative; TEXT-ALIGN: left; LINE-HEIGHT: 1.3; MARGIN: 40px 0px -100px 120px; WIDTH: 75%; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #a0a0a0; FONT-SIZE: 1.4em; OVERFLOW: visible; TOP: -130px; FONT-WEIGHT: normal; LEFT: 0px
+}
+BODY#aara DIV#areaname {
+	MARGIN: 0px
+}
+BODY#espanol DIV#areaname {
+	MARGIN: 0px
+}
+BODY#aara DIV#areaname P {
+	MARGIN: 40px 0px -60px 146px
+}
+BODY#espanol DIV#areaname P {
+	MARGIN: 40px 0px -100px 120px
+}
+#header UL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.2; LIST-STYLE-TYPE: none; MARGIN: 0px 0px 0px 120px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LETTER-SPACING: 0px; COLOR: #a0a0a0; FONT-SIZE: 0.85em; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+BODY#aara #header UL {
+	MARGIN: -60px 0px 0px 146px
+}
+#header UL LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 14px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: url(http://www.epa.gov/epafiles/s/i/breadcrumbarrow.gif) no-repeat 0% 50%; PADDING-TOP: 0px
+}
+#header UL LI A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#header UL LI.first {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#content H1 {
+	BORDER-BOTTOM: #000 2px solid; MARGIN: 0px; FONT-SIZE: 1.7em
+}
+#content H2 {
+	FONT-SIZE: 1.4em
+}
+#content H3 {
+	FONT-SIZE: 1.2em
+}
+#content H4 {
+	FONT-SIZE: 1em
+}
+#content H5 {
+	FONT-SIZE: 0.9em
+}
+#content .boxmulti {
+	BACKGROUND-IMAGE: none
+}
+#content .boxnat {
+	BACKGROUND-IMAGE: none
+}
+#content .boxmulti H5 {
+	BACKGROUND-IMAGE: none
+}
+#content .boxnat H5 {
+	BACKGROUND-IMAGE: none
+}
+#content UL {
+	LIST-STYLE-TYPE: disc
+}
+#content .boxmulti UL LI {
+	LIST-STYLE-TYPE: disc
+}
+#content .boxalert UL LI {
+	LIST-STYLE-TYPE: disc
+}
+#content .color1 UL LI {
+	LIST-STYLE-TYPE: disc
+}
+#content TABLE {
+	FONT-SIZE: 100%
+}
+P#url {
+	POSITION: absolute; COLOR: #a0a0a0; FONT-SIZE: 0.85em; TOP: 0px; RIGHT: 40px
+}
+P#date {
+	POSITION: absolute; COLOR: #a0a0a0; FONT-SIZE: 0.85em; TOP: 0px; RIGHT: 40px
+}
+P#date {
+	TOP: 15px
+}
+H2.printOnly {
+	PADDING-BOTTOM: 0px; MARGIN: 3px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #aaa; FONT-SIZE: 10pt; PADDING-TOP: 0px
+}
+OL.printOnly {
+	MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+OL.printOnly LI {
+	MARGIN-TOP: 0px; PADDING-LEFT: 0px; COLOR: #bbb; MARGIN-LEFT: 3px; FONT-SIZE: 9pt; PADDING-TOP: 0px
+}
+
+@media Print    
+{
+#printAsIs {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; BORDER-TOP: medium none; TOP: 0px; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: 0px
+}
+
+}

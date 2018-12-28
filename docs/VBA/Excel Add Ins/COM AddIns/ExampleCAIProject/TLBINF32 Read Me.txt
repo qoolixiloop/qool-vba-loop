@@ -1,0 +1,34 @@
+TLBINF32.DLL Notes For Use With ComAddInInstaller.xls Workbook
+--------------------------------------------------------------
+
+The TLBINF32.DLL (TypeLib Info) file is a Microsoft-provided file that allows you
+to write code that reads type-library files, files where the definitions
+of COM objects are stored. 
+
+The ComAddInInstaller.xls workbook uses TLBINF32.DLL to retrieve the creatable objects
+and their ProgIDs from your COM Add-In DLL file. This is done to ensure that you are
+installing the write ProgID in the System Registry.
+
+If you already have TLBINF32.DLL on your system, no action is required. 
+
+If you do not have TLBINF32.DLL on your system, you will need to install it, 
+register it with Windows, and set a reference in the ComAddInInstaller.xls VBProject
+to that library. This file contains instructions to do this.
+
+1) Copy the TLBINF32.DLL file from this folder to "C:\Windows\System32"
+
+2) Close all applications.
+
+3) Go to the Windows Start Menu, choose Run, and enter
+	RegSvr32 C:\Windows\System32\TLBINF32.DLL
+and click OK. You should receive a message box indicating success.
+
+4) Open the ComAddInInstaller.xls workbook in Excel and open the VBA project. 
+
+5) Go to the Tools menu, choose References. You may see "TypeLib Information" marked as MISSING. If so, 
+uncheck that Reference Item. 
+
+6) In the References dialog, click the Browse button, navigate to "C:\Windows\System32" and select and open
+"TLBINF32.DLL"
+
+7) Save the ComAddInInstaller.xls workbook.

@@ -1,0 +1,25 @@
+
+Datei:RolandBenz_SudokuAnalysetool.xls
+Problemstellung: Solver lässt sich nicht ausführen.
+
+Lässt sich der Solver nicht ausführen schliessen Sie die Datei und nehmen im Excel folgende
+Einstellung vor:
+
+1.Wählen Sie im Menü:
+Extras>>Makro>>Sicherheit
+
+2.Es öffnet sich die Dialogbox Sicherheit. Wählen sie den Reiter an:
+Sicherheitsstufe
+
+3.Nehmen Sie folgende Einstellung vor:
+Mittel
+
+4.Bestätigen Sie mit OK
+
+5.Öffnen Sie die Datei:RolandBenz_SudokuAnalysetool.xls
+
+6.Es öffnet sich eine Dialogbox. Wählen Sie:
+Makros aktivieren
+
+
+Sie haben nun die Möglichkeit den Solver zu benützen.

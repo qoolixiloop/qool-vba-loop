@@ -1,0 +1,457 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0039)http://www.epa.gov/sunwise/uvindex.html -->
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>UV Index | SunWise | US EPA</TITLE><!-- InstanceBegin template="/Templates/sunwise3.dwt" codeOutsideHTMLIsLocked="false" --><!-- EPA Template version 3.2.1, 28 June 2006 --><!-- InstanceBeginEditable name="doctitle" --><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="metaElements" -->
+<META name=DC.title content="UV Index | SunWise | US EPA">
+<META name=DC.subject content="">
+<META name=DC.type content=""><!-- For date metadata, use the format YYYY-MM-DD -->
+<META name=DC.date.modified content=2010-06-11>
+<META name=DC.date.created content=2002-01-01>
+<META name=DC.date.reviewed content=2009-09-01><!-- InstanceEndEditable -->
+<META name=DC.language content=en>
+<META name=DC.creator 
+content="US EPA, OAR, Office of Atmospheric Programs"><LINK rel=schema.DC 
+href="http://purl.org/dc/elements/1.1/"><LINK title="ICRA labels" rel=meta 
+type=application/rdf+xml href="http://www.epa.gov/labels.rdf">
+<META content=text/css http-equiv=Content-Style-Type>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type><!-- InstanceBeginEditable name="scripts" -->
+<SCRIPT type=text/javascript 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/checkuviform.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_changeProp(objName,x,theProp,theValue) { //v6.0
+  var obj = MM_findObj(objName);
+  if (obj && (theProp.indexOf("style.")==-1 || obj.style)){
+    if (theValue == true || theValue == false)
+      eval("obj."+theProp+"="+theValue);
+    else eval("obj."+theProp+"='"+theValue+"'");
+  }
+}
+
+function selectDay(linkObj) {
+  var linkurl = linkObj.href;
+	var daynum = linkurl.substr((linkurl.indexOf('_wmo.gif')-1),1);
+	var linkid = linkObj.id;
+	if (linkid.indexOf('daylink')==0) {
+	  MM_changeProp('forecastmap','','src',linkurl,'IMG');
+	  for (var i=1; i<5; i++) {
+		  var objName = "daylink" + i.toString();
+			var btnName = "btn" + i.toString();
+			var btnStatus = objName==linkid ? "-dn" : "-up";
+		  var imgName = "images/day" + i.toString() + btnStatus + ".gif";
+		  MM_changeProp(btnName,'','src',imgName,'IMG');
+	  }
+		return false; // don't follow the clicked link
+	}
+	else return true;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+// Clone the epaCore 'addEvent' function, since it isn't defined
+// when the browser loads this script (before epaCore).
+function uviAddEvent( obj, type, fn ) {
+	if (document.getElementById && document.createTextNode) {
+		if (obj.addEventListener)
+			obj.addEventListener( type, fn, false );
+		else if (obj.attachEvent) {
+			obj['e'+type+fn] = fn;
+			obj[type+fn] = function() { obj['e'+type+fn]( window.event ); }
+			obj.attachEvent( 'on'+type, obj[type+fn] );
+		}
+	}
+}
+
+// Add image preload to the onload event handler
+uviAddEvent(window, 'load', function() { MM_preloadImages('images/day1-up.gif','images/day2-dn.gif','images/day3-dn.gif','images/day4-dn.gif') } );
+//-->
+</SCRIPT>
+
+<STYLE type=text/css>#content #pagetoc {
+	FONT-SIZE: 0.85em
+}
+#content #pagetoc SPAN.sep {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+#content A.daylink IMG {
+	MARGIN: 2px 8px
+}
+#mapcontainer {
+	POSITION: relative; WIDTH: 708px; HEIGHT: 533px; OVERFLOW: hidden
+}
+#mapimage {
+	Z-INDEX: 3; POSITION: absolute; TOP: -7px; LEFT: -70px
+}
+#mapmask {
+	Z-INDEX: 4; POSITION: absolute; TOP: -7px; LEFT: -70px
+}
+#content .twocolcontainer {
+	WIDTH: 100%; FLOAT: left; MARGIN-RIGHT: -220px
+}
+#content .twocolcontent {
+	MARGIN-RIGHT: 220px
+}
+#content .twocolsidebar {
+	Z-INDEX: 5; WIDTH: 220px; FLOAT: right; OVERFLOW: auto
+}
+#content .twocolclear {
+	HEIGHT: 0px; CLEAR: both
+}
+#content .zero-top {
+	MARGIN-TOP: 0px
+}
+#content .zero-bot {
+	MARGIN-BOTTOM: 0px
+}
+</STYLE>
+
+<STYLE type=text/css media=print>#pagetoc {
+	DISPLAY: none
+}
+#daylinks {
+	DISPLAY: none
+}
+#daylinksdesc {
+	DISPLAY: none
+}
+</STYLE>
+<!-- InstanceEndEditable --><LINK rel=stylesheet type=text/css 
+href="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/sunwise.css" 
+media=screen,print>
+<STYLE type=text/css media=screen>@import url( http://www.epa.gov/epafiles/s/epa.css );
+</STYLE>
+<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://www.epa.gov/epafiles/s/ie.css" />
+	<![endif]--><LINK rel=stylesheet type=text/css 
+href="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/print.css" media=print>
+<SCRIPT type=text/javascript 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/epa-core.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/extra.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 8.00.6001.19120"></HEAD>
+<BODY>
+<P class=skip><A id=skiptop title="Jump to main content." 
+href="http://www.epa.gov/sunwise/uvindex.html#content">Jump to main 
+content.</A></P>
+<DIV id=header><!-- START EPA HEADER -->
+<DIV id=logo><A title="US EPA home page" href="http://www.epa.gov/"><IMG 
+alt="[logo] US EPA" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/logo_epaseal.gif" width=100 
+height=111></A></DIV>
+<DIV id=areaname><!-- START AREA NAME -->
+<P>SunWise Program </P></DIV><!-- END AREA NAME --><!-- START SEARCH CONTROLS -->
+<FORM id=EPAsearch method=get action=http://nlquery.epa.gov/epasearch/epasearch><!-- START AREA SPECIFIC LINKS AND SEARCH BOX  -->
+<P><A href="http://www.epa.gov/sunwise/contacts.html">Contact Us</A> <SPAN 
+class=search><STRONG>Search:</STRONG> <INPUT id=EPAall value=epa type=radio 
+name=typeofsearch> <LABEL for=EPAall>All EPA</LABEL> <INPUT id=Areaall 
+value=area CHECKED type=radio name=typeofsearch> <LABEL for=Areaall>This 
+Area</LABEL> <INPUT id=searchbox name=querytext> <INPUT id=searchbutton value=Go type=submit name=submit> <INPUT value=sunwise1 
+type=hidden name=fld> <INPUT value=SunWise type=hidden name=areaname> <INPUT 
+value=http://www.epa.gov/sunwise/contacts.html type=hidden name=areacontacts> 
+<INPUT value=epafiles_default.xsl type=hidden name=result_template> <INPUT 
+value=samplefilt.hts type=hidden name=filter> </SPAN></P></FORM><!-- END SEARCH CONTROLS -->
+<UL><!-- BEGIN BREADCRUMBS -->
+  <LI class=first>You are here: <A href="http://www.epa.gov/">EPA Home</A></LI>
+  <LI><A href="http://www.epa.gov/ozone/strathome.html">Ozone Layer 
+  Depletion</A></LI><!-- START AREA BREADCRUMBS -->
+  <LI><A href="http://www.epa.gov/sunwise/index.html">SunWise</A></LI><!-- InstanceBeginEditable name="breadcrumbs" -->
+  <LI>UV Index </LI><!-- InstanceEndEditable --><!-- END AREA BREADCRUMBS --></UL><!-- END BREADCRUMBS --></DIV><!-- END EPA HEADER -->
+<HR class=skip>
+
+<P class=skip><A id=pagecontents name=pagecontents></A><A id=pagetop 
+name=pagetop></A></P>
+<DIV id=content><!-- BEGIN CONTENT --><!-- EPA SITE-WIDE ANNOUNCEMENTS -->
+<P id=sitewidec></P><!-- BEGIN PAGE NAME -->
+<H1><!-- InstanceBeginEditable name="PageName" -->UV Index <!-- InstanceEndEditable --></H1><!-- END PAGE NAME --><!-- BEGIN CONTENT AREA --><!-- InstanceBeginEditable name="content" -->
+<P class=skip><A title="Skip topic navigation links" 
+href="http://www.epa.gov/sunwise/uvindex.html#startofcontent">Skip topic 
+navigation links</A></P>
+<DIV class=twocolwrapper>
+<DIV class=twocolcontainer>
+<DIV class=twocolcontent>
+<TABLE class="qfinder topicnav" 
+summary="Navigation links to other pages in this topic">
+  <THEAD>
+  <TR>
+    <TH colSpan=6>
+      <P>UV Index </P></TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD class=here>UV Index<BR>forecast </TD>
+    <TD><A href="http://www.epa.gov/sunwise/uviscale.html">UV 
+      Index<BR>scale</A></TD>
+    <TD><A href="http://www.epa.gov/sunwise/uvicalc.html">How UV Index 
+      is<BR>calculated</A></TD>
+    <TD><A href="http://www.epa.gov/sunwise/uvalert.html">UV<BR>Alert</A></TD>
+    <TD><A href="http://www.epa.gov/sunwise/uvandhealth.html">Health effects 
+      of<BR>overexposure</A></TD>
+    <TD><A href="http://www.epa.gov/sunwise/uviresources.html">UV 
+      Index<BR>resources</A></TD></TR></TBODY></TABLE>
+<P>The <STRONG>UV Index</STRONG>, developed by the National Weather Service and 
+EPA, indicates the strength of solar UV radiation on a scale from 1 (low) to 11+ 
+(extremely high). You can use the UV Index to take appropriate sun-protective 
+behaviors and avoid overexposure to UV radiation. </P>
+<P id=pagetoc><A href="http://www.epa.gov/sunwise/uvindex.html#lookup">Look up 
+UV Index</A> <SPAN class=sep>|</SPAN> <A 
+href="http://www.epa.gov/sunwise/uvindex.html#map">Forecast map</A> <SPAN 
+class=sep>|</SPAN> <A 
+href="http://www.epa.gov/sunwise/uvindex.html#aboutuvi">About UV Index</A> <SPAN 
+class=sep>|</SPAN> <A 
+href="http://www.epa.gov/sunwise/uvindex.html#related">Related links</A> </P>
+<H3><A id=lookup name=lookup></A>Look up your UV Index</H3>
+<P class=close-bot>Enter ZIP Code or city name and state to get the UV Index 
+forecast for your community or for a place you are visiting.</P>
+<FORM style="MARGIN: 0px" id=uviform onsubmit="return validateInput();" 
+method=post action=http://oaspub.epa.gov/enviro/uv_search>
+<TABLE border=0 cellSpacing=0 summary="The UV Index query form." 
+  cellPadding=1><TBODY>
+  <TR>
+    <TD><LABEL for=zipcode>ZIP&nbsp;Code</LABEL><BR><INPUT id=zipcode 
+      maxLength=5 size=5 type=text name=zipcode></TD>
+    <TD style="TEXT-ALIGN: center; WIDTH: 3em">or</TD>
+    <TD><LABEL for=city_name>City</LABEL><BR><INPUT id=city_name size=15 
+      type=text name=city_name></TD>
+    <TD><LABEL for=state_code>State</LABEL><BR><INPUT id=state_code 
+      title="Postal abbreviation" maxLength=2 size=2 type=text 
+    name=state_code></TD>
+    <TD style="VERTICAL-ALIGN: bottom"><INPUT style="MARGIN-LEFT: 2em" id=submit value="Get UV Index" type=submit> 
+<INPUT style="COLOR: #444; MARGIN-LEFT: 2em; FONT-SIZE: 0.9em" id=reset value=Reset type=reset> 
+    </TD></TR></TBODY></TABLE></FORM>
+<P class="small-text gray-text">Tip: If your ZIP Code is not found, try 
+searching for your city and state. Some ZIP Codes may not be in our 
+database.</P>
+<H3>Special Note on the UV Index Smartphone Apps </H3>
+<P>EPA developed smartphone apps to get the UV Index out to the public. By 
+giving people an easy way to access the UV Index, it’s more likely to be 
+checked. </P>
+<P>The UV Index is presently available from EPA as a free app for Blackberry and 
+Android phones, as well as other web-enabled phones. EPA is finalizing a terms 
+of service agreement with Apple for an iPhone app. Additionally, EPA has a 
+strong desire to keep the UV Index smartphone apps up-to-date and is therefore, 
+interested in cooperating with app developers to ensure that the public 
+continues to have access to the UV Index on the latest smart phones. Note that 
+EPA can only work with app developers who expressly agree not to submit claims 
+for compensation for the development of said apps. The EPA does not endorse any 
+commercial products, services or enterprises. </P>
+<P>Please contact Robert Burchard at burchard.robert@epa.gov, or (202) 343-9126 
+if you are interested in joining a cooperative effort to keep this free, 
+easy-to-use public health tool up-to-date. </P>
+<H3>UV Index forecast map </H3>
+<P>The forecast map shows contour lines of predicted UV Index values during the 
+<A href="http://www.epa.gov/sunwise/glossary.html#solarnoon">solar noon</A> 
+hour. The map is created daily from National Weather Service forecast data. 
+<SPAN id=daylinksdesc><STRONG>Click the buttons for Day 2, Day 3, or Day 4 to 
+see the UV Index forecast for following days.</STRONG> You may notice a brief 
+delay as each map loads.</SPAN> (To find the time of solar noon at your 
+location, use the <A 
+href="http://www.srrb.noaa.gov/highlights/sunrise/sunrise.html">sunrise-sunset-solar 
+noon calculator</A> at the <ACRONYM 
+title="National Oceanic and Atmospheric Administration">NOAA</ACRONYM> Web 
+site.) </P>
+<DIV 
+style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 708px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" 
+id=daylinks>
+<P class="close center"><A id=daylink1 class=daylink 
+onclick="return selectDay(this)" 
+href="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/uvi_usa_f1_wmo.gif"><IMG 
+id=btn1 title="" alt="Day 1" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/day1-dn.gif" width=70 
+height=20></A> <A id=daylink2 class=daylink onclick="return selectDay(this)" 
+href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/gif_files/uvi_usa_f2_wmo.gif"><IMG 
+id=btn2 title="" alt="Day 2" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/day2-up.gif" width=70 
+height=20></A> <A id=daylink3 class=daylink onclick="return selectDay(this)" 
+href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/gif_files/uvi_usa_f3_wmo.gif"><IMG 
+id=btn3 title="" alt="Day 3" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/day3-up.gif" width=70 
+height=20></A> <A id=daylink4 class=daylink onclick="return selectDay(this)" 
+href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/gif_files/uvi_usa_f4_wmo.gif"><IMG 
+id=btn4 title="" alt="Day 4" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/day4-up.gif" width=70 
+height=20></A> </P></DIV>
+<DIV id=mapcontainer>
+<DIV id=mapimage><IMG id=forecastmap alt="UV Index forecast map" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/uvi_usa_f1_wmo.gif" width=864 
+height=576> </DIV>
+<DIV id=mapmask><IMG id=forecastmask alt="UV Index forecast map" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/uvi_forecast_mask_ff.gif" 
+width=864 height=576> </DIV></DIV></DIV></DIV>
+<DIV class=twocolsidebar>
+<DIV id=checkuvindex class="boxmulti zero-top">
+<H5>Check the UV Index</H5>
+<DIV style="TEXT-ALIGN: center; MARGIN: 1em auto 0.5em; WIDTH: 130px">
+<H4 class=close>Smartphone</H4><A href="http://www.epa.gov/enviro/mobile/"><IMG 
+style="MARGIN-RIGHT: 5px" class=right alt="" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/smart_phone.gif" width=29 
+height=40></A> 
+<P class="close small-text"><A href="http://www.epa.gov/enviro/mobile/">Check 
+the UV Index from your mobile phone</A></P></DIV>
+<DIV style="TEXT-ALIGN: center; MARGIN: 0.5em auto; WIDTH: 130px">
+<H4 class=close>E-mail</H4><A 
+href="https://enviroflash.epa.gov/uv/Subscriber.do?method=start"><IMG 
+alt="EnviroFlash - your environmental news flash" src="" width=90 height=50></A> 
+
+<P style="MARGIN-TOP: 0px" class="close small-text"><A 
+href="https://enviroflash.epa.gov/uv/Subscriber.do?method=start">Receive the UV 
+Index by e-mail</A> </P></DIV>
+<DIV style="MARGIN: 0.5em auto; WIDTH: 130px">
+<H4 class="close center">Facebook</H4><A 
+href="http://www.facebook.com/apps/application.php?id=79237137654"><IMG 
+style="MARGIN-TOP: 2px; MARGIN-LEFT: 5px" class=right alt="" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/facebook_silhouette.gif" 
+width=50 height=50></A> 
+<P class="close small-text"><A 
+href="http://www.facebook.com/apps/application.php?id=79237137654">Check your UV 
+Index and share it with friends</A> </P>
+<P 
+class="close clear center"><!-- #BeginLibraryItem "/Library/exit-EPA.lbi" --><A 
+title="EPA's External Link Disclaimer" 
+href="http://www.epa.gov/epahome/exitepa.htm"><IMG alt="Exit EPA Disclaimer" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/epafiles_misc_exitepadisc.gif" 
+width=87 height=13></A><!-- #EndLibraryItem --></P></DIV>
+<DIV style="TEXT-ALIGN: center; MARGIN: 0.5em auto; WIDTH: 130px">
+<H4 class=close>UV Index widget</H4><A 
+href="http://www.epa.gov/sunwise/uviresources.html"><IMG alt="" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/uviwidget_sm.jpg" width=90 
+height=45></A> 
+<P class="close-top small-text"><A 
+href="http://www.epa.gov/sunwise/uviresources.html">Add UV Index lookup to your 
+Web page</A></P></DIV>
+<DIV style="TEXT-ALIGN: center; MARGIN: 0.5em auto; WIDTH: 130px">
+<H4 class=close>iGoogle Gadget</H4><A 
+href="http://www.google.com/ig/adde?moduleurl=http://hosting.gmodules.com/ig/gadgets/file/107149797920718002519/UVIndex.xml&amp;source=imag"><IMG 
+alt="" src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/uvigadget_sm.gif" 
+width=90 height=39></A> 
+<P class="close small-text"><A 
+href="http://www.google.com/ig/adde?moduleurl=http://hosting.gmodules.com/ig/gadgets/file/107149797920718002519/UVIndex.xml&amp;source=imag">Add 
+the UV Index to your iGoogle page</A></P>
+<P class=close><!-- #BeginLibraryItem "/Library/exit-EPA.lbi" --><A 
+title="EPA's External Link Disclaimer" 
+href="http://www.epa.gov/epahome/exitepa.htm"><IMG alt="Exit EPA Disclaimer" 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/epafiles_misc_exitepadisc.gif" 
+width=87 height=13></A><!-- #EndLibraryItem --></P>
+<DIV style="TEXT-ALIGN: center; MARGIN: 0.5em auto; WIDTH: 130px">
+<H4 class=close>UV Index Gadget for Windows 7 &amp; Windows Vista</H4>
+<P class="close-top small-text"><A 
+href="http://www.epa.gov/sunwise/UVIndex.gadget.zip">Click here</A> to download 
+the installation file for the UV Index Gadget. Once downloaded, double-click to 
+install.</P></DIV>
+<DIV style="TEXT-ALIGN: center; MARGIN: 1em auto 0.5em; WIDTH: 130px">
+<H4 class=close>QR Code</H4><IMG alt="QR Code " 
+src="UV%20Index%20%20SunWise%20%20US%20EPA-Dateien/UV_Index_QR_Code.jpg" 
+width=95 longDesc="Scan code with smart phone to access UV Index resources" 
+height=95> 
+<P class="close small-text">Scan here with your mobile device to download the 
+EPA UV Index app </P></DIV></DIV></DIV></DIV>
+<DIV class=twocolclear></DIV></DIV>
+<H3><A id=aboutuvi name=aboutuvi></A>About the UV Index </H3>
+<P id=startofcontent>The ozone layer shields the Earth from harmful ultraviolet 
+(UV) radiation. Ozone depletion, as well as seasonal and weather variations, 
+cause different amounts of UV radiation to reach the Earth at any given time. 
+The <STRONG>UV Index</STRONG>, developed by the National Weather Service and 
+EPA, indicates the strength of solar UV radiation on a scale from 1 (low) to 11+ 
+(extremely high). </P>
+<P>Every day the National Weather Service <A 
+href="http://www.epa.gov/sunwise/uvicalc.html">calculates</A> the predicted UV 
+Index for the next day in each area of the U.S. This <EM>UV Index forecast</EM> 
+is published in mid-afternoon (Eastern time zone) at the EPA Web site. If the 
+level of solar UV radiation is predicted to be unusually high, and consequently 
+the risk of overexposure is greater than normal, the forecast includes a <A 
+href="http://www.epa.gov/sunwise/uvalert.html">UV Alert</A>. (You can sign up 
+below to receive e-mail notification of UV Alerts for your community.) </P>
+<H3><A id=related name=related></A>Related information </H3>
+<P>To report UV measurements for your school, please see the SunWise <A 
+href="http://www.epa.gov/sunwise/uvdata.html">data entry</A> page. </P>
+<P class=close-bot><INS dateTime=2011-09-12></INS>Listen to Paul Gross, 
+meteorologist at WDIV-TV in Detroit, discuss the importance of sun safety in 
+this <A href="http://www.epa.gov/sunwise/Paul_Gross_audio.aif">short audio 
+recording</A>.</P>
+<P class=close-bot>You can also look up UV Index using the following resources. 
+</P>
+<UL>
+  <LI><A href="http://www.epa.gov/sunwise/uvindex.html#checkuvindex">Check UV 
+  Index on-the-go</A> with your smartphone, email, Facebook, or iGoogle </LI>
+  <LI><A 
+  href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_alert.html">UV 
+  Alert map</A> - Areas in the U.S. where predicted UV intensity will be well 
+  above normal, and you will need to be especially careful to avoid 
+  over-exposure. (National Weather Service) </LI>
+  <LI><A href="http://www.epa.gov/sunwise/uvicitymap.html">Cities forecast 
+  map</A> - Forecast UV Index values for 58 U.S. cities, shown on a map. </LI>
+  <LI><A 
+  href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/bulletin.txt">Cities 
+  forecast bulletin</A> - A plain text listing of forecast UV Index values for 
+  58 U.S. cities. (National Weather Service)</LI></UL>
+<P>The following UV Index archives and other information are available from 
+National Weather Service:</P>
+<UL>
+  <LI><A 
+  href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_archive.shtml">Past 
+  city forecast bulletins</A></LI>
+  <LI><A 
+  href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_annual.shtml">Graphs 
+  of yearly values for each city</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/uvimonth.html">Monthly averages of the 
+  UV Index in the U.S. </A></LI>
+  <LI><A 
+  href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_information.shtml">Information 
+  about UV radiation and how it varies</A></LI>
+  <LI><A 
+  href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/index.html">General 
+  UV Index information</A></LI></UL>
+<P>&nbsp;</P><!-- InstanceEndEditable --><!-- BEGIN AREA FOOTER --><!-- END AREA FOOTER --></DIV><!-- END CONTENT -->
+<HR class=skip>
+
+<DIV id=area-nav><!-- BEGIN AREA MAIN NAVIGATION -->
+<H3 class=skip>Local Navigation</H3>
+<UL>
+  <LI><A href="http://www.epa.gov/ozone/strathome.html">Ozone Depletion Home</A> 
+
+  <HR>
+  </LI>
+  <LI><A href="http://www.epa.gov/sunwise/index.html">SunWise Program 
+  Home</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/about.html">Basic Information</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/schools.html">Schools</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/kids/index.html">Kids</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/communities.html">Communities</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/uvindex.html">UV Index</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/actionsteps.html">Action 
+Steps</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/dfd.html"><EM>Don't Fry 
+  Day</EM></A></LI>
+  <LI><A 
+  href="http://www.epa.gov/sunwise/publications.html">Publications</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/links.html">Related Links</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/faqs.html">Frequent Questions</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/awards.html">Awards</A></LI>
+  <LI><A href="http://www.epa.gov/glossary/">Glossary</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/sitemap.html">Site Map</A></LI>
+  <LI><A href="http://www.epa.gov/sunwise/es/index.html">En 
+Español</A></LI></UL></DIV><!-- END AREA MAIN NAVIGATION -->
+<HR class=skip>
+
+<DIV id=footer><!-- BEGIN FOOTER -->
+<UL id=globalfooter>
+  <LI><A href="http://www.epa.gov/">EPA Home</A></LI>
+  <LI><A href="http://www.epa.gov/epafiles/usenotice.htm">Privacy and Security 
+  Notice</A></LI>
+  <LI class=last><A href="http://www.epa.gov/sunwise/contacts.html">Contact 
+  Us</A></LI></UL></DIV><!-- END FOOTER -->
+<P class=skip><A id=skipbot title="Jump to main content." 
+href="http://www.epa.gov/sunwise/uvindex.html#content">Jump to main 
+content.</A></P><!-- InstanceEnd --></BODY></HTML>

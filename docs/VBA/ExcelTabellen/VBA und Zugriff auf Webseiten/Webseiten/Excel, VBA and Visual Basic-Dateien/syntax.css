@@ -1,0 +1,42 @@
+.syntax {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px !important; OVERFLOW-X: auto; OVERFLOW-Y: hidden; WIDTH: 100% !important; MARGIN-BOTTOM: 10px; BACKGROUND: #f7f7f7; OVERFLOW: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.comment .content .syntax {
+	MARGIN-TOP: 10px
+}
+* + HTML .syntax {
+	PADDING-BOTTOM: 15px !important
+}
+.syntax DIV {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}
+.syntax TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}
+.syntax .code {
+	COLOR: #333
+}
+.syntax PRE {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.333; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none; CLEAR: none; FONT-SIZE: 12px; OVERFLOW: visible; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.line_numbers PRE {
+	PADDING-LEFT: 10px
+}
+.syntax TABLE {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 0px; BORDER-COLLAPSE: collapse; BACKGROUND: #f7f7f7; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.post .content .syntax TABLE {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 0px; BORDER-COLLAPSE: collapse; BACKGROUND: #f7f7f7; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.syntax TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2px
+}
+.post .content .syntax TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2px
+}
+.syntax .line_numbers {
+	TEXT-ALIGN: right; BACKGROUND: #e3e4e6; COLOR: #666; OVERFLOW: visible; BORDER-RIGHT: #ccc 1px solid
+}
+.post .content .syntax .line_numbers {
+	TEXT-ALIGN: right; BACKGROUND: #e3e4e6; COLOR: #666; OVERFLOW: visible; BORDER-RIGHT: #ccc 1px solid
+}
